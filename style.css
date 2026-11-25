@@ -1,0 +1,379 @@
+/* main page styles */
+
+body {
+    margin: 0;
+    background-color: #FBF9F4;
+    color: #252525;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
+
+p,
+a,
+li,
+button {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    color: #424842;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 120px 150px;
+}
+
+/* header */
+
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FBF9F4;
+    padding: 22px 150px;
+}
+
+.header-logo,
+.header-btn {
+    flex: 1;
+}
+
+.header-logo h2 {
+    color: #4A654E;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.site-navigation {
+    flex: 2;
+}
+
+#site-header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#site-header nav a {
+    color: #4A654E;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
+    padding-bottom: 8px;
+}
+
+#site-header nav a.active {
+    border-bottom: 2px solid #4A654E;
+    color: #4A654E;
+}
+
+.header-btn {
+    text-align: right;
+}
+
+button {
+    background-color: #4A654E;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 32px;
+}
+
+button a {
+    color: #FBF9F4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* banner */
+
+.site-banner {
+    background: linear-gradient(rgba(245, 246, 240, .68), rgba(245, 246, 240, .68)), url("images/hero-image.jpg");
+    background-size: cover;
+    background-position: center 52%;
+    min-height: 535px;
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+
+.banner-text-overlay {
+    width: 520px;
+}
+
+.banner-text-overlay h5 {
+    color: #4A654E;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 0 0 20px 0;
+}
+
+.banner-text-overlay h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 25px 0;
+}
+
+.banner-text-overlay p {
+    margin-bottom: 40px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    border: 1px solid #4A654E;
+    margin-left: 15px;
+}
+
+.outline-btn a {
+    color: #4A654E;
+}
+
+/* about section */
+
+.about-section {
+    background-color: #FBF9F4;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.about-flex-container {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-img-item {
+    width: 45%;
+    background-color: #FBF9F4;
+    border-radius: 22px;
+    padding: 16px;
+}
+
+.about-img-item img {
+    height: 650px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
+.about-content-item {
+    width: 55%;
+}
+
+.about-content-item h2,
+.section-intro h2,
+.join-content h2 {
+    font-size: 42px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.benefit-item {
+    display: flex;
+    gap: 18px;
+    margin-top: 28px;
+}
+
+.benefit-item img {
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+}
+
+.benefit-item h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.benefit-item p {
+    font-size: 16px;
+    margin: 6px 0 0 0;
+}
+
+/* practice cards */
+
+.practice-section {
+    background-color: #FBF9F4;
+    padding-top: 140px;
+    padding-bottom: 145px;
+}
+
+.section-intro {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto 70px auto;
+}
+
+.practice-flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+.practice-card {
+    flex: 1;
+    background-color: FBF9F4;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 22px 40px rgba(64, 62, 56, .08);
+}
+
+.icon-container {
+    background-color: #FBF9F4;
+    border-radius: 14px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.icon-container img {
+    width: 30px;
+}
+
+.practice-card h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.practice-card p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.practice-card a {
+    color: #4A654E;
+    border-bottom: 2px solid #4A654E;
+    font-weight: 600;
+}
+
+/* call to action */
+
+.join-section {
+    background-color: #FBF9F4;
+}
+
+.join-content {
+    background-color: #4A654E;
+    border-radius: 36px;
+    text-align: center;
+    padding: 75px 100px;
+}
+
+.join-content h2,
+.join-content p {
+    color: #FBF9F4;
+}
+
+.join-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.join-content p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 560px;
+    margin: 25px auto 35px auto;
+}
+
+.join-content button {
+    background-color: #FBF9F4;
+}
+
+.join-content button a {
+    color: #4A654E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* footer */
+
+#site-footer {
+    background-color: #FBF9F4;
+    padding: 80px 150px 35px 150px;
+}
+
+.footer-flex-container {
+    display: flex;
+    gap: 55px;
+}
+
+.footer-flex-item {
+    flex: 1;
+}
+
+.footer-flex-item h2 {
+    color: #4A654E;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 22px 0;
+}
+
+.footer-flex-item h4 {
+    color: #4A654E;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.footer-flex-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-flex-item li {
+    margin-bottom: 8px;
+}
+
+.footer-flex-item a,
+.footer-flex-item p {
+    color: #4A654E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#site-footer hr {
+    border: none;
+    border-top: 1px solid #FBF9F4;
+    margin-top: 80px;
+}
+
+#site-footer h6 {
+    color: #424842ac;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
